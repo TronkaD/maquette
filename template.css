@@ -1,0 +1,412 @@
+@font-face {
+    font-family: "AlfaSlabOne";
+    src: url('fonts/AlfaSlabOne-Regular.ttf');
+}
+@font-face {
+    font-family: "BebasNeue";
+    src: url('fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}   
+
+html, body{
+    margin: 0px;
+    padding:0px;
+}
+img{
+    width: 100%;
+}
+main{
+    margin: auto;
+    max-width: 1250px;
+}
+.header-container{
+
+    background-image: url('img/food/background-header.png');
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.delivery-motorcycle{
+    margin-right: 0%;
+}
+.delivery-motorcycle img{
+    height: 50px;
+    margin-right: 10%;
+}
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+}
+li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #3d2616;
+    font-family:'BebasNeue';
+    font-size: 14px;
+}
+a:hover{
+    transform: scale(1.2);
+    transition: transform(0.5s ease-in-out);
+}
+.second-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.dashed{
+    display: flex;
+    width: 70%;
+    height: 60px;
+    border: 2px dashed #3d2616;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: 'BebasNeue';
+    
+
+}
+.burger{
+    font-size: 140px;
+    color: #3d2616;
+    font-family: "AlfaSlabOne";
+    margin-left: 50px;
+    border-style: 4px solid white; 
+    text-shadow: 3px 4px 2px wheat;
+}
+.week{
+    font-size: 80px;
+    color: #3d2616;
+    font-family: "AlfaSlabOne";
+    margin-left: 50px;
+    text-shadow: 3px 4px 2px wheat;
+}
+.main-container{
+    display: inline-block;
+}
+.container-first{
+    display: flex;
+    position: relative;
+    width: 1300px;
+    height: 500px;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.bg-burger{
+    position: relative;
+    display: flex;
+    background-image: url('img/food/food2.jpg');
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+}
+.food{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 400px;
+
+}
+.first-food{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 180px;
+    background-image: url('img/food/food4.jpg');
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.second-food{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    background-image: url('img/food/food5.jpg');
+    width: 600px;
+    height: 180px;
+    border-radius: 15px;
+}
+h1, h3{
+    color: white;
+    font-family: "BebasNeue";
+}
+.center{
+    display: inline-block;
+    margin-left: 20px;
+}
+h1{
+    margin-top: -10px;
+}
+.container-second{
+    display: grid;
+    flex-direction: row;
+    justify-items: center;
+}
+.text-tasty{
+    display: flex;
+    background-color: #fec045;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    font-family: "BebasNeue";
+    font-size: 24px;
+
+}
+.choose{
+    display: inline-block;
+    font-size: 60px;
+    color: #3d2616;
+    margin-top: 10px;
+    font-family: "AlfaSlabOne";
+}
+.first-paragraphe{
+    display: inline-block;
+    width: 1100px;
+    height: 80px;
+    text-align: center;
+    margin-left: 25px;
+    color: #3d2616;
+    font-size: 18px;
+}
+button{
+    border: none;
+    background-color: #b2261e;
+    width: 150px;
+    height: 50px;
+    font-family: "AlfaSlabOne";
+    color: white;
+}
+.burger-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-items: center;
+}
+.align-center{
+    text-align: center;
+    color: #3d2616;
+}
+.title{
+    font-family: "BebasNeue";
+    font-size: 24px;
+}
+.discover-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover-right img{
+    height: 80%;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+.discover{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    margin-top: 250px;
+    box-shadow: 2px 2px 30px gray;
+}
+.discover-left{
+    display: inline-block;
+    width: 80%;
+    height: 100px;
+    margin: 50px 50px;
+}
+.text-discover{
+    color:#3d2616;
+    font-family: "BebasNeue";
+    font-size: 20px;
+}
+.text-upcoming{
+    font-size: 40px;
+    color: #3d2616;
+    font-family: "AlfaSlabOne";
+}
+.paragraph p{
+    font-size: 20px;
+    color: #3d2616;
+    font-family: "Montserrat";
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;
+}
+.isyellow{
+    background: #fec045;
+}
+.reservation-container{
+    display: grid;
+    position: relative;
+    grid-template-columns: 20% 60% 30%;
+    justify-items: center;
+ 
+}
+.tomate img{
+    width: 100%;
+}
+.bottle img{
+    height: 250px;
+    width: 30%;
+    
+}
+.formlaire{
+    display:grid;
+    grid-template-rows: repeat();
+
+}
+input{
+    width: 350px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.last button{
+    border: none;
+    width: 350px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 18px;
+
+}
+.align-content{
+    margin-top: 100px;
+}
+
+.last-burger{
+    margin-top: 300px;
+    margin-left: 70px;
+}
+.footer-container{
+    width: 100%;
+    position: relative;
+    background-image: url('img/food/food12.jpg');
+    background-size: cover;
+
+}
+.icon-size img{
+    height: 20px;
+    width: 20px;
+}
+
+.sentence{
+    display: inline-block;
+    height: 100px;
+    width: 50%;
+    font-size: 20px;
+    color: #3d2616;
+    margin-right: 20%;
+    margin-top: 2%;
+    font-family: "Montserrat";
+}
+.contact{
+    display:inline-block;
+    height: 100px;
+    width: 40%;
+    font-size: 20px;
+    font-size: 13px;
+    margin-top: 80px;
+} 
+.iswhite{
+    color: white;
+}
+.burger-house{
+    margin-left: 2%;
+}
+.burger-house img{
+    width: 15%;
+    margin-top: 50px;
+}
+
+.copy-right{
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    margin-left: 5%;
+}
+.float-copy{
+    margin: 25px
+}
+
+.first{
+    display: flex;
+    height: 70%;
+}
+.tomate div:first-child img{
+    margin-top: 50px;
+}
+.ipsum-mail{
+    position:relative;
+    display: flex;
+    width: 90%;
+    height: 10%;
+    margin-left: 2%;
+    font-size: 12px;
+    justify-content: center;
+
+}
+.space{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.mail{
+    display: flex;
+    margin-left: 45%;
+}
+.map{
+    display: flex;
+    margin-left: 45%;
+}
+.reseaux-social{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-flex{
+    width: 10%;
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.setence{
+    margin-top: -20px;
+}
+.icon-square{
+    height: 25px;
+    width: 25px;
+    color: white;
+    border-radius: 50%;
+}
+
